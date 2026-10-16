@@ -1,0 +1,46 @@
+{
+  "name": "Ecosistema de Automatización IA - Triage Soporte VIP & HITL",
+  "flow": [
+    {
+      "id": 1,
+      "module": "gateway:CustomWebHook",
+      "version": 1,
+      "parameters": {},
+      "metadata": {
+        "designer": { "x": 0, "y": 0 }
+      }
+    },
+    {
+      "id": 2,
+      "module": "airtable:ActionCreateRecord",
+      "version": 1,
+      "metadata": {
+        "designer": { "x": 250, "y": 0 }
+      }
+    },
+    {
+      "id": 3,
+      "module": "openai-gpt-3:createCompletion",
+      "version": 1,
+      "metadata": {
+        "designer": { "x": 500, "y": 0 }
+      }
+    },
+    {
+      "id": 4,
+      "module": "slack:createPost",
+      "version": 1,
+      "metadata": {
+        "designer": { "x": 750, "y": 0 }
+      }
+    },
+    {
+      "id": 5,
+      "module": "google-email:actionSendEmail",
+      "version": 1,
+      "metadata": {
+        "designer": { "x": 1000, "y": 0 }
+      }
+    }
+  ]
+}
