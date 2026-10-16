@@ -58,7 +58,7 @@ Para garantizar la viabilidad financiera del proyecto, se estructuró la siguien
 ---
 
 ## 5. Dashboard de Control Ejecutivo
-* **Enlace Web de Control:** https://airtable.com/appExampleSharedView/shr123456789
+* **Enlace Web de Control:** https://airtable.com/invite/l?inviteId=inv4NG9M5vXJD0SRP&inviteToken=8c89460280a43c19ccfac2ea333bdae8cf2cc3a616bfe966366d47bf82dbf3b1&utm_medium=email&utm_source=product_team&utm_content=transactional-alerts
 * Permite al dueño del negocio monitorear en tiempo real los KPIs operativos:
   * Volumen total de tickets procesados.
   * Tasa de éxito vs. tasa de errores del flujo.
